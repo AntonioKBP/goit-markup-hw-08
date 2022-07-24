@@ -1,0 +1,43 @@
+.checkbox {
+    position: relative;
+    margin-bottom: 30px;
+
+    &__label {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      color: var(--text-color-gray);
+      padding-left: 24px;
+    }
+    
+    &__terms-conditions-link {
+      color: var(--accent-color);
+    }
+    
+    &__border-icon {
+      position: absolute;
+      left: 0;
+      opacity: 1;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: opacity 250ms var(--cubik-timings);
+    }
+    
+    &__check-icon {
+      position: absolute;
+      left: 0;
+      opacity: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: opacity 250ms var(--cubik-timings);
+    }
+    
+    &__input:checked ~ .checkbox__border-icon {
+      opacity: 0;
+    }
+    
+    &__input:checked ~ .checkbox__check-icon {
+      opacity: 1;
+    }
+  }
+  
