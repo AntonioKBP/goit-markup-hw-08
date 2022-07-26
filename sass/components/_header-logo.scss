@@ -27,6 +27,7 @@
 // }
 
 .header {
+  position: relative;
   background-color: var(--white-color);
   border-bottom: 1px solid #ececec;
 
@@ -41,10 +42,19 @@
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+  margin-right: 284px;
 
   color: var(--absolute-black);
 }
 
 .header__logo--accent {
   color: var(--accent-color);
+}
+
+.header__button {
+  position: absolute;
+right: 15px;
+top: 10px;
+bottom: 15px;
+
 }
