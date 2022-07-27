@@ -26,6 +26,13 @@
  
 // }
 
+
+
+
+
+
+
+
 .header {
   position: relative;
   background-color: var(--white-color);
@@ -34,6 +41,7 @@
 }
 
 .header__logo {
+  display: block;
   
   padding-top: 15px;
   padding-bottom: 15px;
