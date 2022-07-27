@@ -25,5 +25,29 @@
 //   }
 
 
+.footer-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+.footer {
+        background-color: #2f303a;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        
+        
  
-  
+}
+.footer__logo {
+          display: inline-block;
+          font-family: Raleway, serif;
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 1.2;
+          text-decoration: none;
+          color: var(--white-color);
+          margin-bottom: 20px;
+        }
+.footer__logo--accent {
+      color: var(--accent-color);
+    }        

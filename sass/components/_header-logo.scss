@@ -34,7 +34,7 @@
 }
 
 .header__logo {
-  display: block;
+  
   padding-top: 15px;
   padding-bottom: 15px;
   font-family: Raleway;
@@ -56,5 +56,10 @@
 right: 15px;
 top: 10px;
 bottom: 15px;
+display: flex;
+margin: 0;
+padding: 0;
+border: 0;
+background-color: transparent;
 
 }
