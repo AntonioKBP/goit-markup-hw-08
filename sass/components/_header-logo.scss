@@ -29,6 +29,108 @@
 
 
 
+// .header {
+//   &__desktop-nav-list {
+// list-style: none;
+// display: flex;
+// padding: 0;
+// }
+
+
+// &__nav-item {
+// margin-right: 50px;
+// }
+
+// &__nav-item:last-child {
+// margin-right: 0;
+// }
+
+// &__nav-link--current {
+// color: var(--accent-color);
+// }
+
+// &__nav-link {
+// position: relative;
+// font-weight: 500;
+// font-size: 14px;
+// line-height: 1.14;
+// letter-spacing: 0.02em;
+// text-decoration: none;
+// color: var(--text-color-black);
+// padding-top: 34px;
+// padding-bottom: 33px;
+// transition: color 250ms var(--cubik-timings);
+
+// }
+// &__nav-link:hover,
+// &__nav-link:focus {
+// color: var(--accent-color);
+// }
+
+// &__nav-link--current::after {
+// position: absolute;
+// left: 0;
+// bottom: 0;
+// content: '';
+// display: block;
+// width: 100%;
+// height: 4px;
+// background-color: var(--accent-color);
+// border-radius: 2px;
+// }
+// }
+
+
+
+
+// .header {
+//   &__desktop-address-list {
+// margin-left: auto;
+// list-style: none;
+// display: flex;
+// padding: 0;
+// }
+
+// &__address-item {
+// margin-right: 50px;
+// }
+
+// &__address-item:last-child {
+// margin-right: 0;
+// }
+
+// &__address-link {
+// display: inline-flex;
+// align-items: center;
+// font-weight: 500;
+// font-size: 14px;
+// line-height: 1.14;
+// letter-spacing: 0.02em;
+// text-decoration: none;
+// color: var(--text-color-gray);
+// padding-top: 15px;
+// padding-bottom: 15px;
+// transition: color 250ms var(--cubik-timings);
+// }
+
+// &__desktop-address-link:hover,
+// &__desktop-address-link:focus {
+// color: var(--accent-color);
+// }
+
+// &__desktop-icon-phone {
+// fill: currentColor;
+// margin-right: 10px;
+// }
+
+// &__desktop-icon-envelope {
+// fill: currentColor;
+// margin-right: 10px;
+// }
+// }
+
+
+
 
 
 
@@ -59,7 +161,17 @@
   color: var(--accent-color);
 }
 
-.header__button {
+.header__mobile-menu {
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #FFFFFF;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+}
+
+.header__mobile-button {
   position: absolute;
 right: 15px;
 top: 10px;
@@ -69,5 +181,113 @@ margin: 0;
 padding: 0;
 border: 0;
 background-color: transparent;
+transition: 250ms var(--cubik-timings);
 
 }
+
+.header__mobile-button-close {
+  position:absolute;
+  right: 30px;
+top: 10px;
+bottom: 15px;
+display: flex;
+margin: 0;
+padding: 0;
+border: 0;
+background-color: transparent;
+}
+
+.header__mobile-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+padding-top: 48px;
+margin-bottom: 302px;
+  }
+
+
+.header__mobile-nav-item {
+  margin-bottom: 32px;
+}
+
+.header__mobile-nav-link {
+position: relative;
+font-weight: 500;
+font-size: 40px;
+line-height: 1.17;
+
+letter-spacing: 0.02em;
+text-decoration: none;
+color: var(--text-color-black);
+transition: color 250ms var(--cubik-timings);}
+
+
+.header__mobile-link--current {
+  color: var(--accent-color);
+  }
+
+  .header__mobile-nav-link:hover,
+  .header__mobile-nav-link:focus {
+  color: var(--accent-color);
+  }
+
+
+  .header__mobile-address-list {
+    
+    list-style: none;
+    margin-bottom: 64px;
+
+    }
+
+    .header__mobile-address-item {
+      margin-bottom: 32px;
+      }
+
+    .header__mobile-address-item:last-child {
+      margin-bottom: 0;
+    }
+
+
+
+
+    .header__mobile-address-link {
+        display: inline-flex;
+        align-items: center;
+        font-weight: 500;
+          font-size: 24px;
+          line-height: 1.16;
+          letter-spacing: 0.02em;
+        
+        text-decoration: none;
+        color: var(--text-color-gray);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        transition: color 250ms var(--cubik-timings);
+        }    
+  
+  .header__mobile-address-link--bigger {
+    font-weight: 500;
+      font-size: 34px;
+      line-height: 1.17;
+      letter-spacing: 0.02em;
+    
+      color: var(--accent-color);
+  }
+
+
+
+
+
+
+// .header__button .header__icon-close {
+//   display: none;
+// }
+
+// .header__button.is-open .header__icon-close {
+//   display: block;
+// }
+
+// .header__button.is-open .header__icon-menu {
+//   display: none;
+// }

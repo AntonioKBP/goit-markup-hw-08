@@ -28,34 +28,67 @@
       <div class="container">
         <div class="header header-flex">
           <a href="./" class="header__logo"><span class="header__logo--accent">Web</span>Studio</a>
-          <button class="header__button" type="button">
-            <svg class="header-icons" width="40" height="40" aria-label="открыть меню">
-            <use href="./images/main/icons.svg#header-menu-icon"></use>
-            <use href="./images/main/icons.svg#header-close-icon"></use>
+
+          <button class="header__mobile-button" type="button" aria-label="Открытие мобильного меню" data-mobile-menu-open>
+            <svg class="header__icon" width="40" height="40" aria-label="открыть меню">
+              <use class="header__icon-menu" href="./images/main/icons.svg#header-menu-icon"></use>
           </svg>
-        </button>
+         </button>
+
+        
+          <div class="header__mobile-menu is-hidden" data-mobile-menu>
+            <button class="header__mobile-button-close" type="button" aria-label="Закрытие мобильного меню" data-mobile-menu-close>
+              <svg class="header__icon" width="40" height="40" aria-label="закрыть меню">
+                <use class="header__icon-close" href="./images/main/icons.svg#header-close-icon"></use>
+            </svg>
+             </button>
+            <nav>
+              <ul class="header__mobile-nav-list">
+                <li class="header__mobile-nav-item">
+                  <a href="" class="header__mobile-nav-link header__mobile-link--current">Студия</a>
+                </li>
+                <li class="header__mobile-nav-item">
+                  <a href="./portfolio.html" class="header__mobile-nav-link">Портфолио</a>
+                </li>
+                <li class="header__mobile-nav-item">
+                  <a href="" class="header__mobile-nav-link">Контакты</a>
+                </li>
+                
+              </ul>
+            </nav>
+            <ul class="header__mobile-address-list">
+              <li class="header__mobile-address-item">
+                <a href="tel:+380961111111" class="header__mobile-address-link header__mobile-address-link--bigger">+38 096 111 11 11</a>
+              </li>
+              <li class="header__mobile-address-item">
+                <a href="mailto:info@devstudio.com" class="header__mobile-address-link">info@devstudio.com</a>
+              </li>
+             
+              
+            </ul>
+          </div>
           <nav>
-            <ul class="header__nav-list">
-              <li class="header__nav-item">
-                <a class="header__nav-link header__nav-link--current" href="#">Студия</a>
+            <ul class="header__desktop-nav-list">
+              <li class="header__desktop-nav-item">
+                <a class="header__desktop-nav-link header__nav-link--current" href="#">Студия</a>
               </li>
-              <li class="header__nav-item">
-                <a class="header__nav-link" href="./portfolio.html">Портфолио</a>
+              <li class="header__desktop-nav-item">
+                <a class="header__desktop-nav-link" href="./portfolio.html">Портфолио</a>
               </li>
-              <li class="header__nav-item"><a class="header__nav-link" href="#">Контакты</a></li>
+              <li class="header__desktop-nav-item"><a class="header__nav-link" href="#">Контакты</a></li>
             </ul>
           </nav>
-          <ul class="header__address-list">
-            <li class="header__address-item">
-              <a class="header__address-link" href="mailto:info@devstudio.com"
-                ><svg class="header__icon-envelope" width="16" height="12" aria-hidden="true">
+          <ul class="header__desktop-address-list">
+            <li class="header__desktop-address-item">
+              <a class="header__desktop-address-link" href="mailto:info@devstudio.com"
+                ><svg class="header__desktop-icon-envelope" width="16" height="12" aria-hidden="true">
                   <use href="./images/main/icons.svg#envelope"></use></svg
                 >info@devstudio.com</a
               >
             </li>
-            <li class="header__address-item">
-              <a class="header__address-link" href="tel:+380961111111">
-                <svg class="header__icon-phone" width="10" height="16" aria-hidden="true">
+            <li class="header__desktop-address-item">
+              <a class="header__desktop-address-link" href="tel:+380961111111">
+                <svg class="header__desktop-icon-phone" width="10" height="16" aria-hidden="true">
                   <use href="./images/main/icons.svg#phone"></use></svg
                 >+38 096 111 11 11</a
               >
@@ -160,7 +193,7 @@
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-section__list">
             <li class="team-section__item">
-              <img class="team-section__img" src="./images/main/worker1.jpg" alt="работник1" width="450" />
+              <img class="team-section__img" src="./images/main/mobile-worker1.jpg" alt="работник1" width="450" />
               <div class="team-section__border">
                 <h3 class="team-section__title">Игорь Демьяненко</h3>
                 <p class="team-section__text">Product Designer</p>
@@ -215,7 +248,7 @@
             </li>
 
             <li class="team-section__item">
-              <img class="team-section__img" src="./images/main/worker2.jpg" alt="работник2" width="450" />
+              <img class="team-section__img" src="./images/main/mobile-worker2.jpg" alt="работник2" width="450" />
               <div class="team-section__border">
                 <h3 class="team-section__title">Ольга Репина</h3>
                 <p class="team-section__text">Frontend Developer</p>
@@ -270,7 +303,7 @@
             </li>
 
             <li class="team-section__item">
-              <img class="team-section__img" src="./images/main/worker3.jpg" alt="работник3" width="450" />
+              <img class="team-section__img" src="./images/main/mobile-worker3.jpg" alt="работник3" width="450" />
               <div class="team-section__border">
                 <h3 class="team-section__title">Николай Тарасов</h3>
                 <p class="team-section__text">Marketing</p>
@@ -325,7 +358,7 @@
             </li>
 
             <li class="team-section__item">
-              <img class="team-section__img" src="./images/main/worker4.jpg" alt="работник4" width="450" />
+              <img class="team-section__img" src="./images/main/mobile-worker4.jpg" alt="работник4" width="450" />
               <div class="team-section__border">
                 <h3 class="team-section__title">Михаил Ермаков</h3>
                 <p class="team-section__text">UI Designer</p>
@@ -464,7 +497,7 @@
     <!--footer-->
     <footer class="footer">
       <div class="container footer-flex">
-        <div class="footer--address-flex">
+        <div class="footer--address-div-flex">
           <a href="/" class="footer__logo"><span class="footer__logo--accent">Web</span>Studio</a>
           <address class="footer-address">
             <ul class="footer-address__list">
@@ -635,5 +668,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
