@@ -9,4 +9,5 @@
     background-color: rgba(0, 0, 0, 0.2);
     visibility: visible;
     transition: opacity 250ms var(--cubik-timings), visibility 250ms var(--cubik-timings);
+    z-index: 10;
   }
