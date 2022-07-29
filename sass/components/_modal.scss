@@ -1,39 +1,39 @@
-// .backdrop.is-hidden .modal {
-//     transform: translate(-50%, -50%) scale(0);
-//   }
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0);
+  }
   
   
   
-//   .modal {
-//     position: absolute;
-//     top: 50%;
-//     left: 50%;
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
   
-//     width: 528px;
-//     min-height: 581px;
-//     background: #ffffff;
-//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-//       0px 2px 1px rgba(0, 0, 0, 0.2);
-//     border-radius: 4px;
-//     transform: translate(-50%, -50%) scale(1);
-//     transition: transform 250ms var(--cubik-timings);
-//     &__close-button {
-//       position: absolute;
-//       right: 0;
-//       height: 30px;
-//       width: 30px;
-//       margin: 8px;
-//       border: 1px solid rgba(0, 0, 0, 0.1);
-//       background-color: var(--white-color);
-//       fill: var(--absolute-black);
-//       border-radius: 50%;
-//       cursor: pointer;
-//       transition: fill 250ms var(--cubik-timings);
-//     }
+    width: 528px;
+    min-height: 581px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms var(--cubik-timings);
+    &__close-button {
+      position: absolute;
+      right: 0;
+      height: 30px;
+      width: 30px;
+      margin: 8px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      background-color: var(--white-color);
+      fill: var(--absolute-black);
+      border-radius: 50%;
+      cursor: pointer;
+      transition: fill 250ms var(--cubik-timings);
+    }
     
-//     &__close-button:hover,
-//     &__close-button:focus {
-//       fill: var(--accent-color);
-//     }
-//   }
+    &__close-button:hover,
+    &__close-button:focus {
+      fill: var(--accent-color);
+    }
+  }
   
