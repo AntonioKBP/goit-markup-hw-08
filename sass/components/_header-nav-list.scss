@@ -19,9 +19,7 @@
         margin-right: 0;
     }
 
-    &__desktop-nav-link--current {
-        color: var(--accent-color);
-    }
+   
 
     &__desktop-nav-link {
         position: relative;
@@ -36,6 +34,10 @@
         transition: color 250ms var(--cubik-timings);
 
     }
+
+         &__desktop-nav-link--current {
+             color: var(--accent-color);
+         }
 
     &__desktop-nav-link:hover,
     &__desktop-nav-link:focus {
@@ -52,6 +54,7 @@
         height: 4px;
         background-color: var(--accent-color);
         border-radius: 2px;
+        color: var(--accent-color);
     }
 }
 
