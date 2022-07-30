@@ -143,22 +143,23 @@
   &__logo {
       display: block;
   
-      padding-top: 15px;
-      padding-bottom: 15px;
+      padding-top: 26px;
+      padding-bottom: 26px;
       font-family: Raleway;
       font-weight: 700;
       font-size: 26px;
       line-height: 1.2;
       text-decoration: none;
-      margin-right: 284px;
+      margin-right: 88px;
+      
   
       color: var(--absolute-black);
     }
-        @media screen and (max-width: 768px) {
-          &__logo {
-            margin-right: 88px;
-          }
-        }
+        // @media screen and (min-width: 767px) {
+        //   &__logo {
+        //     margin-right: 88px;
+        //   }
+        // }
   
     &__logo--accent {
       color: var(--accent-color);

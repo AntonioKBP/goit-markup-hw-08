@@ -2,10 +2,11 @@
   &__desktop-address-list {
 margin-left: auto;
 list-style: none;
-display: flex;
+
 padding: 0;
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 767px){
 &__desktop-address-list {
     display: none;
 }
@@ -14,15 +15,15 @@ padding: 0;
 
 
 &__desktop-address-item {
-margin-right: 50px;
+margin-bottom: 10px;
 }
 
 &__desktop-address-item:last-child {
-margin-right: 0;
+margin-bottom: 0;
 }
 
 &__desktop-address-link {
-display: inline-flex;
+
 align-items: center;
 font-weight: 500;
 font-size: 14px;
@@ -30,8 +31,8 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
 color: var(--text-color-gray);
-padding-top: 15px;
-padding-bottom: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
 transition: color 250ms var(--cubik-timings);
 }
 
