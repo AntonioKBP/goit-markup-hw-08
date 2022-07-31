@@ -155,11 +155,13 @@
   
       color: var(--absolute-black);
     }
-        // @media screen and (min-width: 767px) {
-        //   &__logo {
-        //     margin-right: 88px;
-        //   }
-        // }
+        @media screen and (min-width: 1200px) {
+          &__logo {
+            margin-right: 93px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+          }
+        }
   
     &__logo--accent {
       color: var(--accent-color);

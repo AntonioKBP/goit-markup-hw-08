@@ -72,6 +72,12 @@
         width: calc((100% - 3 * 30px) / 3);
       }
     }
+
+        @media screen and (min-width: 1200px) {
+          &__item {
+            width: calc((100% - 6 * 30px) / 6);
+          }
+        }
   
     &__link:hover,
     &__link:focus {
