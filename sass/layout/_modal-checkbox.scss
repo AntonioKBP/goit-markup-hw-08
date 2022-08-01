@@ -11,6 +11,14 @@
       padding-left: 24px;
     }
 
+    @media screen and (min-width:1200px){
+      &__label {
+        display: inherit;
+        font-size: 14px;
+          line-height: 1.71;
+      }
+    }
+
         // position: relative;
         // display: -webkit-box;
         // display: -ms-flexbox;
@@ -26,6 +34,8 @@
     
     &__terms-conditions-link {
       color: var(--accent-color);
+      text-decoration: none;
+      
     }
     
     &__border-icon {
