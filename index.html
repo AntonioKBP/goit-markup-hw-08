@@ -173,20 +173,49 @@
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="work-section__list">
             <li class="work-section__item">
-              <img class="work-section__img" src="./images/main/box1.jpg" alt="верстка сайта" width="370" />
+              <picture>
+                <source srcset="./images/main/box1jpg 1x,
+                                      ./images/main/box1@2x.jpg 2x" media="(max-width: 767px)" />
+              
+                <source srcset="./images/main/box1jpg 1x, ./images/main/box1@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width:1199px" />
+              
+                <source srcset="./images/main/box1jpg 1x,
+                                                    ./images/main/box1@2x.jpg 2x" media="(min-width: 1200px)" />
+              <img class="work-section__img" src="./images/main/box1.jpg" alt="верстка сайта"/>
+              </picture>
               <p class="work-section__text">ДЕСКТОПНЫЕ РЕШЕНИЯ</p>
             </li>
             <li class="work-section__item">
+              <picture>
+                <source srcset="./images/main/box2jpg 1x,
+                                                    ./images/main/box2@2x.jpg 2x" media="(max-width: 767px)" />
+              
+                <source srcset="./images/main/box2jpg 1x, ./images/main/box2@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width:1199px" />
+              
+                <source srcset="./images/main/box2jpg 1x,
+                                                                  ./images/main/box2@2x.jpg 2x" media="(min-width: 1200px)" />
               <img
                 class="work-section__img"
                 src="./images/main/box2.jpg"
                 alt="создание приложений"
-                width="370"
               />
+              </picture>
               <p class="work-section__text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
             </li>
             <li class="work-section__item">
-              <img class="work-section__img" src="./images/main/box3.jpg" alt="оформление" width="370" />
+              <picture>
+                <source srcset="./images/main/box3jpg 1x,
+                                                    ./images/main/box3@2x.jpg 2x" media="(max-width: 767px)" />
+              
+                <source srcset="./images/main/box3jpg 1x, ./images/main/box3@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width:1199px" />
+              
+                <source srcset="./images/main/box3jpg 1x,
+                                                                  ./images/main/box3@2x.jpg 2x" media="(min-width: 1200px)" />
+              <img class="work-section__img" src="./images/main/box3.jpg" alt="оформление"/>
+              </picture>
               <p class="work-section__text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
             </li>
           </ul>
@@ -198,7 +227,25 @@
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-section__list">
             <li class="team-section__item">
-              <img class="team-section__img" src="./images/main/mobile-worker1.jpg" alt="работник1" width="450" />
+              <picture>
+                <source
+                srcset="./images/main/mobile-worker1.jpg 1x,
+                        ./images/main/mobile-worker1@2x.jpg 2x"
+                        media="(max-width: 767px)"
+                />
+
+                <source srcset="./images/main/tablet-worker1.jpg 1x, ./images/main/tablet-worker1@2x.jpg 2x" 
+                media="(min-width: 768px) and (max-width:1199px"/>
+
+              <source srcset="./images/main/desktop-worker1.jpg 1x,
+                                      ./images/main/desktop-worker1@2x.jpg 2x" media="(min-width: 1200px)" />
+                
+              <img class="team-section__img" 
+                   src="./images/main/mobile-worker1.jpg" 
+                   alt="работник1" 
+                    />
+              </picture>
+              
               <div class="team-section__border">
                 <h3 class="team-section__title">Игорь Демьяненко</h3>
                 <p class="team-section__text">Product Designer</p>
@@ -253,7 +300,21 @@
             </li>
 
             <li class="team-section__item">
-              <img class="team-section__img" src="./images/main/mobile-worker2.jpg" alt="работник2" width="450" />
+
+              <picture>
+                <source srcset="./images/main/mobile-worker2.jpg 1x,
+                                      ./images/main/mobile-worker2@2x.jpg 2x" media="(max-width: 767px)" />
+              
+                <source srcset="./images/main/tablet-worker2.jpg 1x, ./images/main/tablet-worker2@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width:1199px" />
+              
+                <source srcset="./images/main/desktop-worker2.jpg 1x,
+                                                    ./images/main/desktop-worker2@2x.jpg 2x" media="(min-width: 1200px)" />
+              <img class="team-section__img" 
+                   src="./images/main/mobile-worker2.jpg" 
+                   alt="работник2"  />
+
+              </picture>
               <div class="team-section__border">
                 <h3 class="team-section__title">Ольга Репина</h3>
                 <p class="team-section__text">Frontend Developer</p>
@@ -308,7 +369,19 @@
             </li>
 
             <li class="team-section__item">
-              <img class="team-section__img" src="./images/main/mobile-worker3.jpg" alt="работник3" width="450" />
+              <picture>
+                <source srcset="./images/main/mobile-worker3.jpg 1x,
+                                      ./images/main/mobile-worker3@2x.jpg 2x" media="(max-width: 767px)" />
+              
+                <source srcset="./images/main/tablet-worker3.jpg 1x, ./images/main/tablet-worker3@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width:1199px" />
+              
+                <source srcset="./images/main/desktop-worker3.jpg 1x,
+                                                    ./images/main/desktop-worker3@2x.jpg 2x" media="(min-width: 1200px)" />
+              <img class="team-section__img" 
+                   src="./images/main/mobile-worker3.jpg" 
+                   alt="работник3" />
+              </picture>
               <div class="team-section__border">
                 <h3 class="team-section__title">Николай Тарасов</h3>
                 <p class="team-section__text">Marketing</p>
@@ -363,7 +436,17 @@
             </li>
 
             <li class="team-section__item">
-              <img class="team-section__img" src="./images/main/mobile-worker4.jpg" alt="работник4" width="450" />
+              <picture>
+                <source srcset="./images/main/mobile-worker4.jpg 1x,
+                                      ./images/main/mobile-worker4@2x.jpg 2x" media="(max-width: 767px)" />
+              
+                <source srcset="./images/main/tablet-worker4.jpg 1x, ./images/main/tablet-worker4@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width:1199px" />
+              
+                <source srcset="./images/main/desktop-worker4.jpg 1x,
+                                                    ./images/main/desktop-worker4@2x.jpg 2x" media="(min-width: 1200px)" />
+              <img class="team-section__img" src="./images/main/mobile-worker4.jpg" alt="работник4"/>
+              </picture>
               <div class="team-section__border">
                 <h3 class="team-section__title">Михаил Ермаков</h3>
                 <p class="team-section__text">UI Designer</p>
