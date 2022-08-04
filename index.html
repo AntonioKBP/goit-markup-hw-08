@@ -56,21 +56,24 @@
                 
               </ul>
             </nav>
-            <ul class="header__mobile-address-list">
-              <li class="header__mobile-address-item">
-                <a href="tel:+380961111111" class="header__mobile-address-link header__mobile-address-link--bigger">+38 096 111 11 11</a>
-              </li>
-              <li class="header__mobile-address-item">
-                <a href="mailto:info@devstudio.com" class="header__mobile-address-link">info@devstudio.com</a>
-              </li>
-             </ul>
-
-            <ul class="mobile-social-list">
-              <li class="mobile-social-list__item"><a href="#" class="mobile-social-list__link">Instagram</a></li>
-              <li class="mobile-social-list__item"><a href="#" class="mobile-social-list__link">Twitter</a></li>
-              <li class="mobile-social-list__item"><a href="#" class="mobile-social-list__link">Facebook</a></li>
-              <li class="mobile-social-list__item"><a href="#" class="mobile-social-list__link">LinkedIn</a></li>
-            </ul>
+            <div class="mobile-menu-wrapper">
+              <ul class="header__mobile-address-list">
+                <li class="header__mobile-address-item">
+                  <a href="tel:+380961111111" class="header__mobile-address-link header__mobile-address-link--bigger">+38 096 111 11
+                    11</a>
+                </li>
+                <li class="header__mobile-address-item">
+                  <a href="mailto:info@devstudio.com" class="header__mobile-address-link">info@devstudio.com</a>
+                </li>
+              </ul>
+              
+              <ul class="mobile-social-list">
+                <li class="mobile-social-list__item"><a href="#" class="mobile-social-list__link">Instagram</a></li>
+                <li class="mobile-social-list__item"><a href="#" class="mobile-social-list__link">Twitter</a></li>
+                <li class="mobile-social-list__item"><a href="#" class="mobile-social-list__link">Facebook</a></li>
+                <li class="mobile-social-list__item"><a href="#" class="mobile-social-list__link">LinkedIn</a></li>
+              </ul>
+            </div>
           </div>
           <nav>
             <ul class="header__desktop-nav-list">
@@ -87,16 +90,14 @@
             <li class="header__desktop-address-item">
               <a class="header__desktop-address-link" href="mailto:info@devstudio.com"
                 ><svg class="header__desktop-icon-envelope" width="16" height="12" aria-hidden="true">
-                  <use href="./images/main/icons.svg#envelope"></use></svg
-                >info@devstudio.com</a
-              >
+                  <use href="./images/main/icons.svg#envelope"></use>
+                  </svg>info@devstudio.com</a>
             </li>
             <li class="header__desktop-address-item">
               <a class="header__desktop-address-link" href="tel:+380961111111">
                 <svg class="header__desktop-icon-phone" width="10" height="16" aria-hidden="true">
-                  <use href="./images/main/icons.svg#phone"></use></svg
-                >+38 096 111 11 11</a
-              >
+                  <use href="./images/main/icons.svg#phone"></use>
+                  </svg>+38 096 111 11 11</a>
             </li>
           </ul>
         </div>
@@ -175,27 +176,35 @@
             <li class="work-section__item">
               <picture>
                 <source srcset="./images/main/box1jpg 1x,
-                                      ./images/main/box1@2x.jpg 2x" media="(max-width: 767px)" />
+                                ./images/main/box1@2x.jpg 2x" 
+                                media="(max-width: 767px)"/>
               
-                <source srcset="./images/main/box1jpg 1x, ./images/main/box1@2x.jpg 2x"
-                  media="(min-width: 768px) and (max-width:1199px" />
+                <source srcset="./images/main/box1jpg 1x, 
+                                ./images/main/box1@2x.jpg 2x"
+                                media="(min-width: 768px) and (max-width:1199px"/>
               
                 <source srcset="./images/main/box1jpg 1x,
-                                                    ./images/main/box1@2x.jpg 2x" media="(min-width: 1200px)" />
-              <img class="work-section__img" src="./images/main/box1.jpg" alt="верстка сайта"/>
+                                ./images/main/box1@2x.jpg 2x" 
+                                media="(min-width: 1200px)"/>
+              <img class="work-section__img" 
+                   src="./images/main/box1.jpg" 
+                   alt="верстка сайта"/>
               </picture>
               <p class="work-section__text">ДЕСКТОПНЫЕ РЕШЕНИЯ</p>
             </li>
             <li class="work-section__item">
               <picture>
                 <source srcset="./images/main/box2jpg 1x,
-                                                    ./images/main/box2@2x.jpg 2x" media="(max-width: 767px)" />
+                                ./images/main/box2@2x.jpg 2x" 
+                                media="(max-width: 767px)"/>
               
-                <source srcset="./images/main/box2jpg 1x, ./images/main/box2@2x.jpg 2x"
-                  media="(min-width: 768px) and (max-width:1199px" />
+                <source srcset="./images/main/box2jpg 1x, 
+                                ./images/main/box2@2x.jpg 2x"
+                                media="(min-width: 768px) and (max-width:1199px"/>
               
                 <source srcset="./images/main/box2jpg 1x,
-                                                                  ./images/main/box2@2x.jpg 2x" media="(min-width: 1200px)" />
+                                ./images/main/box2@2x.jpg 2x" 
+                                media="(min-width: 1200px)"/>
               <img
                 class="work-section__img"
                 src="./images/main/box2.jpg"
@@ -207,14 +216,19 @@
             <li class="work-section__item">
               <picture>
                 <source srcset="./images/main/box3jpg 1x,
-                                                    ./images/main/box3@2x.jpg 2x" media="(max-width: 767px)" />
+                                ./images/main/box3@2x.jpg 2x" 
+                                media="(max-width: 767px)" />
               
-                <source srcset="./images/main/box3jpg 1x, ./images/main/box3@2x.jpg 2x"
-                  media="(min-width: 768px) and (max-width:1199px" />
+                <source srcset="./images/main/box3jpg 1x, 
+                                ./images/main/box3@2x.jpg 2x"
+                                media="(min-width: 768px) and (max-width:1199px"/>
               
                 <source srcset="./images/main/box3jpg 1x,
-                                                                  ./images/main/box3@2x.jpg 2x" media="(min-width: 1200px)" />
-              <img class="work-section__img" src="./images/main/box3.jpg" alt="оформление"/>
+                                ./images/main/box3@2x.jpg 2x" 
+                                media="(min-width: 1200px)"/>
+              <img class="work-section__img" 
+                   src="./images/main/box3.jpg" 
+                   alt="оформление"/>
               </picture>
               <p class="work-section__text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
             </li>
@@ -228,17 +242,17 @@
           <ul class="team-section__list">
             <li class="team-section__item">
               <picture>
-                <source
-                srcset="./images/main/mobile-worker1.jpg 1x,
-                        ./images/main/mobile-worker1@2x.jpg 2x"
-                        media="(max-width: 767px)"
-                />
+                <source srcset="./images/main/mobile-worker1.jpg 1x,
+                                ./images/main/mobile-worker1@2x.jpg 2x"
+                                media="(max-width: 767px)"/>
 
-                <source srcset="./images/main/tablet-worker1.jpg 1x, ./images/main/tablet-worker1@2x.jpg 2x" 
-                media="(min-width: 768px) and (max-width:1199px"/>
+                <source srcset="./images/main/tablet-worker1.jpg 1x, 
+                                ./images/main/tablet-worker1@2x.jpg 2x" 
+                                media="(min-width: 768px) and (max-width:1199px"/>
 
               <source srcset="./images/main/desktop-worker1.jpg 1x,
-                                      ./images/main/desktop-worker1@2x.jpg 2x" media="(min-width: 1200px)" />
+                              ./images/main/desktop-worker1@2x.jpg 2x" 
+                              media="(min-width: 1200px)"/>
                 
               <img class="team-section__img" 
                    src="./images/main/mobile-worker1.jpg" 
@@ -259,8 +273,9 @@
                         height="20"
                         aria-label="ссылка на инстаграм"
                       >
-                        <use href="./images/main/icons.svg#instagram"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#instagram"></use>
+                        </svg>
+                      </a>
                   </li>
                   <li class="team-social__item">
                     <a class="team-social__link" href="#">
@@ -270,8 +285,9 @@
                         height="20"
                         aria-label="ссылка на твиттер"
                       >
-                        <use href="./images/main/icons.svg#twitter"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="team-social__item">
                     <a class="team-social__link" href="#">
@@ -281,8 +297,9 @@
                         height="20"
                         aria-label="ссылка на фэйсбук"
                       >
-                        <use href="./images/main/icons.svg#facebook"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#facebook"></use>
+                        </svg>
+                      </a>
                   </li>
                   <li class="team-social__item">
                     <a class="team-social__link" href="#">
@@ -292,8 +309,9 @@
                         height="20"
                         aria-label="ссылка на линкедин"
                       >
-                        <use href="./images/main/icons.svg#linkedin"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#linkedin"></use>
+                        </svg>
+                      </a>
                   </li>
                 </ul>
               </div>
@@ -303,13 +321,16 @@
 
               <picture>
                 <source srcset="./images/main/mobile-worker2.jpg 1x,
-                                      ./images/main/mobile-worker2@2x.jpg 2x" media="(max-width: 767px)" />
+                                ./images/main/mobile-worker2@2x.jpg 2x" 
+                                media="(max-width: 767px)"/>
               
-                <source srcset="./images/main/tablet-worker2.jpg 1x, ./images/main/tablet-worker2@2x.jpg 2x"
-                  media="(min-width: 768px) and (max-width:1199px" />
+                <source srcset="./images/main/tablet-worker2.jpg 1x, 
+                                ./images/main/tablet-worker2@2x.jpg 2x"
+                                media="(min-width: 768px) and (max-width:1199px"/>
               
                 <source srcset="./images/main/desktop-worker2.jpg 1x,
-                                                    ./images/main/desktop-worker2@2x.jpg 2x" media="(min-width: 1200px)" />
+                                ./images/main/desktop-worker2@2x.jpg 2x" 
+                                media="(min-width: 1200px)"/>
               <img class="team-section__img" 
                    src="./images/main/mobile-worker2.jpg" 
                    alt="работник2"  />
@@ -328,8 +349,9 @@
                         height="20"
                         aria-label="ссылка на инстаграм"
                       >
-                        <use href="./images/main/icons.svg#instagram"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#instagram"></use>
+                        </svg>
+                      </a>
                   </li>
                   <li class="team-social__item">
                     <a class="team-social__link" href="#">
@@ -339,8 +361,9 @@
                         height="20"
                         aria-label="ссылка на твиттер"
                       >
-                        <use href="./images/main/icons.svg#twitter"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#twitter"></use>
+                        </svg>
+                      </a>
                   </li>
                   <li class="team-social__item">
                     <a class="team-social__link" href="#">
@@ -350,19 +373,21 @@
                         height="20"
                         aria-label="ссылка на фэйсбук"
                       >
-                        <use href="./images/main/icons.svg#facebook"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#facebook"></use>
+                        </svg>
+                      </a>
                   </li>
                   <li class="team-social__item">
                     <a class="team-social__link" href="#">
                       <svg
-                        class="team-social__icon"
-                        width="20"
-                        height="20"
-                        aria-label="ссылка на линкедин"
+                           class="team-social__icon"
+                           width="20"
+                           height="20"
+                           aria-label="ссылка на линкедин"
                       >
-                        <use href="./images/main/icons.svg#linkedin"></use></svg
-                    ></a>
+                           <use href="./images/main/icons.svg#linkedin"></use>
+                        </svg>
+                      </a>
                   </li>
                 </ul>
               </div>
@@ -371,13 +396,16 @@
             <li class="team-section__item">
               <picture>
                 <source srcset="./images/main/mobile-worker3.jpg 1x,
-                                      ./images/main/mobile-worker3@2x.jpg 2x" media="(max-width: 767px)" />
+                                ./images/main/mobile-worker3@2x.jpg 2x" 
+                                media="(max-width: 767px)"/>
               
-                <source srcset="./images/main/tablet-worker3.jpg 1x, ./images/main/tablet-worker3@2x.jpg 2x"
-                  media="(min-width: 768px) and (max-width:1199px" />
+                <source srcset="./images/main/tablet-worker3.jpg 1x, 
+                                ./images/main/tablet-worker3@2x.jpg 2x"
+                                media="(min-width: 768px) and (max-width:1199px"/>
               
                 <source srcset="./images/main/desktop-worker3.jpg 1x,
-                                                    ./images/main/desktop-worker3@2x.jpg 2x" media="(min-width: 1200px)" />
+                                ./images/main/desktop-worker3@2x.jpg 2x" 
+                                media="(min-width: 1200px)"/>
               <img class="team-section__img" 
                    src="./images/main/mobile-worker3.jpg" 
                    alt="работник3" />
@@ -395,8 +423,9 @@
                         height="20"
                         aria-label="ссылка на инстаграм"
                       >
-                        <use href="./images/main/icons.svg#instagram"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#instagram"></use>
+                        </svg>
+                      </a>
                   </li>
                   <li class="team-social__item">
                     <a class="team-social__link" href="#">
@@ -406,8 +435,9 @@
                         height="20"
                         aria-label="ссылка на твиттер"
                       >
-                        <use href="./images/main/icons.svg#twitter"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#twitter"></use>
+                        </svg>
+                      </a>
                   </li>
                   <li class="team-social__item">
                     <a class="team-social__link" href="#">
@@ -417,8 +447,9 @@
                         height="20"
                         aria-label="ссылка на фэйсбук"
                       >
-                        <use href="./images/main/icons.svg#facebook"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="team-social__item">
                     <a class="team-social__link" href="#">
@@ -428,8 +459,9 @@
                         height="20"
                         aria-label="ссылка на линкедин"
                       >
-                        <use href="./images/main/icons.svg#linkedin"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#linkedin"></use>
+                        </svg>
+                      </a>
                   </li>
                 </ul>
               </div>
@@ -438,14 +470,19 @@
             <li class="team-section__item">
               <picture>
                 <source srcset="./images/main/mobile-worker4.jpg 1x,
-                                      ./images/main/mobile-worker4@2x.jpg 2x" media="(max-width: 767px)" />
+                                ./images/main/mobile-worker4@2x.jpg 2x" 
+                                media="(max-width: 767px)"/>
               
-                <source srcset="./images/main/tablet-worker4.jpg 1x, ./images/main/tablet-worker4@2x.jpg 2x"
-                  media="(min-width: 768px) and (max-width:1199px" />
+                <source srcset="./images/main/tablet-worker4.jpg 1x, 
+                                ./images/main/tablet-worker4@2x.jpg 2x"
+                                media="(min-width: 768px) and (max-width:1199px"/>
               
                 <source srcset="./images/main/desktop-worker4.jpg 1x,
-                                                    ./images/main/desktop-worker4@2x.jpg 2x" media="(min-width: 1200px)" />
-              <img class="team-section__img" src="./images/main/mobile-worker4.jpg" alt="работник4"/>
+                                ./images/main/desktop-worker4@2x.jpg 2x" 
+                                media="(min-width: 1200px)"/>
+              <img class="team-section__img" 
+                   src="./images/main/mobile-worker4.jpg" 
+                   alt="работник4"/>
               </picture>
               <div class="team-section__border">
                 <h3 class="team-section__title">Михаил Ермаков</h3>
@@ -460,8 +497,9 @@
                         height="20"
                         aria-label="ссылка на инстаграм"
                       >
-                        <use href="./images/main/icons.svg#instagram"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="team-social__item">
                     <a class="team-social__link" href="#">
@@ -471,8 +509,9 @@
                         height="20"
                         aria-label="ссылка на твиттер"
                       >
-                        <use href="./images/main/icons.svg#twitter"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="team-social__item">
                     <a class="team-social__link" href="#">
@@ -482,8 +521,9 @@
                         height="20"
                         aria-label="ссылка на фэйсбук"
                       >
-                        <use href="./images/main/icons.svg#facebook"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="team-social__item">
                     <a class="team-social__link" href="#">
@@ -493,8 +533,9 @@
                         height="20"
                         aria-label="ссылка на линкедин"
                       >
-                        <use href="./images/main/icons.svg#linkedin"></use></svg
-                    ></a>
+                        <use href="./images/main/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -515,8 +556,9 @@
                   width="106"
                   height="60"
                 >
-                  <use href="./images/main/icons.svg#client-1"></use></svg
-              ></a>
+                  <use href="./images/main/icons.svg#client-1"></use>
+                </svg>
+              </a>
             </li>
 
             <li class="clients-section__item">
@@ -527,8 +569,9 @@
                   width="106"
                   height="60"
                 >
-                  <use href="./images/main/icons.svg#client-2"></use></svg
-              ></a>
+                  <use href="./images/main/icons.svg#client-2"></use>
+                </svg>
+              </a>
             </li>
 
             <li class="clients-section__item">
@@ -539,8 +582,9 @@
                   width="106"
                   height="60"
                 >
-                  <use href="./images/main/icons.svg#client-3"></use></svg
-              ></a>
+                  <use href="./images/main/icons.svg#client-3"></use>
+                </svg>
+              </a>
             </li>
 
             <li class="clients-section__item">
@@ -551,8 +595,9 @@
                   width="106"
                   height="60"
                 >
-                  <use href="./images/main/icons.svg#client-4"></use></svg
-              ></a>
+                  <use href="./images/main/icons.svg#client-4"></use>
+                </svg>
+              </a>
             </li>
 
             <li class="clients-section__item">
@@ -563,8 +608,9 @@
                   width="106"
                   height="60"
                 >
-                  <use href="./images/main/icons.svg#client-5"></use></svg
-              ></a>
+                  <use href="./images/main/icons.svg#client-5"></use>
+                </svg>
+              </a>
             </li>
 
             <li class="clients-section__item">
@@ -575,8 +621,9 @@
                   width="106"
                   height="60"
                 >
-                  <use href="./images/main/icons.svg#client-6"></use></svg
-              ></a>
+                  <use href="./images/main/icons.svg#client-6"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -614,8 +661,9 @@
                   height="20"
                   aria-label="ссылка на инстаграм"
                 >
-                  <use href="./images/main/icons.svg#instagram"></use></svg
-              ></a>
+                  <use href="./images/main/icons.svg#instagram"></use>
+                </svg>
+              </a>
             </li>
             <li class="footer-social__item">
               <a class="footer-social__link" href=""
@@ -625,8 +673,9 @@
                   height="20"
                   aria-label="ссылка на твиттер"
                 >
-                  <use href="./images/main/icons.svg#twitter"></use></svg
-              ></a>
+                  <use href="./images/main/icons.svg#twitter"></use>
+                </svg>
+              </a>
             </li>
             <li class="footer-social__item">
               <a class="footer-social__link" href=""
@@ -636,8 +685,9 @@
                   height="20"
                   aria-label="ссылка на фйсбук"
                 >
-                  <use href="./images/main/icons.svg#facebook"></use></svg
-              ></a>
+                  <use href="./images/main/icons.svg#facebook"></use>
+                </svg>
+              </a>
             </li>
             <li class="footer-social__item">
               <a class="footer-social__link" href=""
@@ -647,8 +697,9 @@
                   height="20"
                   aria-label="ссылка на линкедин"
                 >
-                  <use href="./images/main/icons.svg#linkedin"></use></svg
-              ></a>
+                  <use href="./images/main/icons.svg#linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -744,8 +795,8 @@
                   <use href="./images/main/icons.svg#checkbox-border"></use>
                 </svg>
                 <svg class="checkbox__check-icon" width="16" height="15" aria-hidden="true">
-                  <use href="./images/main/icons.svg#checkbox-check"></use></svg
-                >Соглашаюсь с рассылкой и принимаю
+                  <use href="./images/main/icons.svg#checkbox-check"></use>
+                  </svg>Соглашаюсь с рассылкой и принимаю
                 <a class="checkbox__terms-conditions-link" href="#">Условия договора</a></label
               >
             </div>
