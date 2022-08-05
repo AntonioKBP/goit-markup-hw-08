@@ -85,4 +85,10 @@
       border: 1px solid var(--accent-color);
     }
 }
+@media screen and (min-width: 1200px){
+  .clients-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 
